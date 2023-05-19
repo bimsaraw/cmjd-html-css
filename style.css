@@ -1,0 +1,72 @@
+h1 {
+    color: blue;
+    font-size: 65px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#pr3 {
+    font-weight: bold;
+}
+
+.grey-pr {
+    color: gray;
+}
+
+.list-div {
+    background-image: url(invest.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    color: #fff;
+    margin: 50px 50px 100px 50px;
+    padding: 20px;
+    border-left: 5px solid black;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 50px;
+}
+
+table {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}
+
+td {
+    padding: 5px 15px;
+    border-bottom: 1px solid #000;
+}
+
+.navbar {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 0;
+}
+
+.navbar>li {
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.navbar>li>a {
+    text-decoration: none;
+    background-color: #156;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.navbar>li>a:hover {
+    background-color: #fff;
+    color: #156;
+    border: 1px solid #156;
+}

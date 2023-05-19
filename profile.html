@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile Page</title>   
+        <link href="style.css" rel="stylesheet" />     
+    </head>
+    <body>
+        <h1>Profile Page</h1>
+        <p>This is profile page</p>
+        <a href="index.html">Home Page</a>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Telephone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- First Table Row -->
+                <tr>
+                    <td>01</td>
+                    <td>Bimsara</td>
+                    <td>Kottawa</td>
+                    <td>0775566554</td>
+                    <td>bimsara@example.com</td>
+                </tr>
+
+                <!-- Second Table Row -->
+                <tr>
+                    <td>01</td>
+                    <td>Bimsara</td>
+                    <td>Kottawa</td>
+                    <td>0775566554</td>
+                    <td>bimsara@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form method="post" action="https://example.com/save_user">
+            <div>
+                <label for="fName">First Name</label>
+                <input type="text" id="fName" name="fName" placeholder="Enter your First Name" required="true"/>
+            </div>
+            <div>
+                <label for="lName">Last Name</label>
+                <input type="text" id="lName" name="lName" value="Test" readonly />
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+
+            <div>
+                <input type="radio" id="male" value="M" name="gender" />
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" value="F" name="gender" />
+                <label for="female">Female</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="car" value="car" name="car" />
+                <label for="car">By Car</label>
+
+                <input type="checkbox" id="bus" value="bus" name="bus" />
+                <label for="bus">By Bus</label>
+            </div>
+
+            <div>
+                <textarea name="address" row="10" cols="40">
+                </textarea>
+            </div>
+
+            <select id="country" name="country" multiple>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+            </select>
+
+            <button type="submit">Save</button>
+        </form>
+    </body>
+</html>
